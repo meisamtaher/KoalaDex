@@ -17,7 +17,7 @@ const NavBar = () => {
         </div>
         <ul className='flex space-x-6'>
             {links.map(link=>
-            <div className='flex flex-row space-x-1 items-center'>
+            <div className='flex flex-row space-x-1 items-center' key={link.label}>
               <img src={link.img}/>
               <a className="text-white text-sm transition-colors" >{link.label}</a>
             </div> 

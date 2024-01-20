@@ -1,6 +1,5 @@
 'use client'
 import React from 'react';
-import { Dialog, DialogTitle, DialogContent } from '@radix-ui/react-dialog';
 import Footer from '@/app/components/Footer';
 
 export default function Modal() {

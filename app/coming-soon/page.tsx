@@ -6,7 +6,7 @@ import { KoalaDex } from '../components/KoalaDex';
 import Socials from '../components/Socials';
 import Footer from '../components/Footer';
 
-const  coming_soon = () => {
+const  ComingSoon = () => {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   const [email, setEmail] = useState<string|undefined>(undefined);
@@ -50,7 +50,7 @@ const  coming_soon = () => {
         <button disabled={loading} className="w-[150px] bg-sky-500 border-r border-t border-b border-gray-500 text-white pr-1  pl-1 rounded-tr-2xl rounded-br-2xl h-full text-xl" >Send</button>
       </form>
       
-      <p className="text-sky-500 text-xs font-normal">Don't miss out on the opportunity to join the revolution of decentralized trading. Sign up now.</p>
+      <p className="text-sky-500 text-xs font-normal" content="Don't miss out on the opportunity to join the revolution of decentralized trading. Sign up now."></p>
       <div className='h-6 '/>
       <Footer/>
     </div>
@@ -58,4 +58,4 @@ const  coming_soon = () => {
   )
 }
 
-export default coming_soon;
+export default ComingSoon;
