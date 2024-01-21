@@ -50,7 +50,7 @@ const  ComingSoon = () => {
         <button disabled={loading} className="w-[150px] bg-sky-500 border-r border-t border-b border-gray-500 text-white pr-1  pl-1 rounded-tr-2xl rounded-br-2xl h-full text-xl" >Send</button>
       </form>
 
-      <p className="text-sky-500 text-xs font-normal" >Don't miss out on the opportunity to join the revolution of decentralized trading. Sign up now.</p>
+      <a className="text-sky-500 text-xs font-normal" >Don&apos;t miss out on the opportunity to join the revolution of decentralized trading. Sign up now.</a>
       <div className='h-6 '/>
       <Footer/>
     </div>
