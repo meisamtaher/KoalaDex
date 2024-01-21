@@ -31,11 +31,11 @@ const  ComingSoon = () => {
   return (
     <div className=" max-w-2xl  bg-slate-950 bg-opacity-50 rounded-2xl pt-10 pb-10 pr-4 pl-4 shadow-md shadow-white/10 backdrop-blur-sm">
     <div className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8" >
-      <h1 className="text-3xl font-bold leading-tight text-white">Coming Soon</h1>
+      <h1 className="text-2xl md:max-2xl:text-3xl font-bold leading-tight text-white">Coming Soon</h1>
       <div className='h-6'/>
       <div className="flex-col justify-start items-start gap-2 inline-flex">
-        <p className="text-white text-2xl">Be the first to know.</p>
-        <p className="text-white text-l">Enter your email and be notified of our exciting launch date.</p>
+        <p className="text-white text-lg md:max-2xl:text-2xl">Be the first to know.</p>
+        <p className="text-white text-xs md:max-2xl:text-lg">Enter your email and be notified of our exciting launch date.</p>
       </div>
       <form onSubmit={submit_email} className='inline-flex h-20 w-full pt-3 pb-3'>
         <input
@@ -49,8 +49,8 @@ const  ComingSoon = () => {
         />
         <button disabled={loading} className="w-[150px] bg-sky-500 border-r border-t border-b border-gray-500 text-white pr-1  pl-1 rounded-tr-2xl rounded-br-2xl h-full text-xl" >Send</button>
       </form>
-      
-      <p className="text-sky-500 text-xs font-normal" content="Don't miss out on the opportunity to join the revolution of decentralized trading. Sign up now."></p>
+
+      <p className="text-sky-500 text-xs font-normal" >Don't miss out on the opportunity to join the revolution of decentralized trading. Sign up now.</p>
       <div className='h-6 '/>
       <Footer/>
     </div>

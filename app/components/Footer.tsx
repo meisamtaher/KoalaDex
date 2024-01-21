@@ -6,6 +6,7 @@ const Footer = () => {
   return (
     <div className='w-full flex  flex-col sm:max-2xl:flex-row  items-center justify-items-start'>
         <KoalaDex></KoalaDex>
+        <div className='h-4 w-1'></div>
         <div className=' w-full h-full flex flex-row sm:max-2xl:flex-row-reverse justify-center sm:max-2xl:justify-start'>
         <Socials/>
         </div>
